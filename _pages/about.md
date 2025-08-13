@@ -13,7 +13,7 @@ Under Review
 ------
 A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paints  
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
-<span style="font-family: 'Brush Script MT', cursive; font-style: italic;">
+<span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Sensors and Actuators A: Physical  
 </span>
 Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
