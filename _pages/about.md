@@ -26,14 +26,14 @@ Keywords: Ti-Zr-V, NEG films, Thermal Activation, Adhesion Strength
 [Finite Element Analysis for NEG coated vacuum chamber based on ANSYS Workbench](https://iopscience.iop.org/article/10.1088/1742-6596/2687/8/082025)  
 Wenjing Ma, Wenli Zhang, Xiaopeng Xu, **Jianya Wei**, Sihui Wang, Xiaoqin Ge, Baoyuan Bian  
 *Journal of Physics: Conference Series*  
-Keywords: Vacuum chamber, Thermal-mechanical analysis, Synchrotron radiation facility  
+Keywords: Vacuum Chamber, Thermal-mechanical Analysis, Synchrotron Radiation Facility  
 
 [Vacuum Performance of Activated NEG Coatings under Neon Venting](http://cjvst.cvs.org.cn/en/article/doi/10.13922/j.cnki.cjvst.202305002)  
 Xiaopeng Xu, Wenjing Ma, **Jianya Wei**, Xiaoqin Ge, Le Fan, Yuanzhi Hong, Le Fan, Yuanzhi Hong, Xiaowei Xia, Tao Huang, Sihui Wang  
 *Chinese Journal of Vacuum Science and Technology*  
-Keywords: Ti-Zr-V coatings，Neon protecting，HALF，Ultra-high vacuum，Activation  
+Keywords: Ti-Zr-V Coatings, Neon Protecting, HALF, Ultra-high Vacuum, Activation  
 
 [Multi-Chamber TiZrV Coating in OFS Copper Vacuum Chamber for HALF](https://www.cpsjournals.cn/article/doi/10.13922/j.cnki.cjvst.202207022?viewType=HTML)  
 Zhuang Zhao, Wenjing Ma, Xiaoqin Ge, Sihui Wang, Yuanzhi Hong, **Jianya Wei**, Shancai Zhang, Le Fan  
 *Chinese Journal of Vacuum Science and Technology*  
-Keywords: Multi-chamber coating，Non-evaporable getter，Magnetron sputtering，Particle accelerator  
+Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Particle Accelerator  
