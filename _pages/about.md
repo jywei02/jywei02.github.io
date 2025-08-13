@@ -11,7 +11,7 @@ Hi there! I’m a Master’s student in Mechanical Engineering at the University
 
 Under Review
 ------
-<span style="color: #40E0D0;">A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paint  </span><br>
+A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paint  
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Sensors and Actuators A: Physical  
