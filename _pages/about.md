@@ -17,7 +17,7 @@ A Tristimulus Value Transformation Calibration Method for Spectral Emission Sepa
 Sensors and Actuators A: Physical  
 </span>
 Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
-<span style="color:#FFA559;">This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FFA559;">Caltech GALCIT Colloquium.</a></span>
+<span style="color:#FFA559;">✦ This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FFA559;">Caltech GALCIT Colloquium</a>.</span>
 
 Publications
 ------
