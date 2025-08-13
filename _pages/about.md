@@ -11,7 +11,7 @@ Hi there! I’m a Master’s student in Mechanical Engineering at the University
 
 Under Review
 ------
-A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paints  
+<span style="color: #40E0D0;">A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paint  </span><br>
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Sensors and Actuators A: Physical  
@@ -19,11 +19,11 @@ Sensors and Actuators A: Physical
 <span style="color: #FFA559;">
 Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
 </span>
-<span style="color:#FF5733;">✦ This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FF5733;">Caltech GALCIT Colloquium</a>.</span>
+<span style="color:#FF5733;">✦ This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FF5733;">Caltech GALCIT Colloquium</a>.  </span>
 
 Publications
 ------
-[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  
+<span style="color: #40E0D0;">[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  </span><br>
 Wenjing Ma, Xiaopeng Xu, **Jianya Wei**, Yonghao Gao, Xiaoqin Ge, Wenli Zhang, Le Fan, Yuanzhi Hong, Tao Huang, Sihui Wang  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Applied Surface Science  
@@ -32,7 +32,7 @@ Applied Surface Science
 Keywords: Ti-Zr-V, NEG Films, Thermal Activation, Adhesion Strength  
 </span>
 
-[Finite Element Analysis for NEG coated vacuum chamber based on ANSYS Workbench](https://iopscience.iop.org/article/10.1088/1742-6596/2687/8/082025)  
+<span style="color: #40E0D0;">[Finite Element Analysis for NEG coated vacuum chamber based on ANSYS Workbench](https://iopscience.iop.org/article/10.1088/1742-6596/2687/8/082025)  </span><br>
 Wenjing Ma, Wenli Zhang, Xiaopeng Xu, **Jianya Wei**, Sihui Wang, Xiaoqin Ge, Baoyuan Bian  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Journal of Physics: Conference Series  
@@ -41,7 +41,7 @@ Journal of Physics: Conference Series
 Keywords: Vacuum Chamber, Thermal-mechanical Analysis, Synchrotron Radiation Facility  
 </span>
 
-[Vacuum Performance of Activated NEG Coatings under Neon Venting](http://cjvst.cvs.org.cn/en/article/doi/10.13922/j.cnki.cjvst.202305002)  
+<span style="color: #40E0D0;">[Vacuum Performance of Activated NEG Coatings under Neon Venting](http://cjvst.cvs.org.cn/en/article/doi/10.13922/j.cnki.cjvst.202305002)  </span><br>
 Xiaopeng Xu, Wenjing Ma, **Jianya Wei**, Xiaoqin Ge, Le Fan, Yuanzhi Hong, Le Fan, Yuanzhi Hong, Xiaowei Xia, Tao Huang, Sihui Wang  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Chinese Journal of Vacuum Science and Technology  
@@ -50,7 +50,7 @@ Chinese Journal of Vacuum Science and Technology
 Keywords: Ti-Zr-V Coatings, Neon Protecting, HALF, Ultra-high Vacuum, Activation  
 </span>
 
-[Multi-Chamber TiZrV Coating in OFS Copper Vacuum Chamber for HALF](https://www.cpsjournals.cn/article/doi/10.13922/j.cnki.cjvst.202207022?viewType=HTML)  
+<span style="color: #40E0D0;">[Multi-Chamber TiZrV Coating in OFS Copper Vacuum Chamber for HALF](https://www.cpsjournals.cn/article/doi/10.13922/j.cnki.cjvst.202207022?viewType=HTML)  </span>
 Zhuang Zhao, Wenjing Ma, Xiaoqin Ge, Sihui Wang, Yuanzhi Hong, **Jianya Wei**, Shancai Zhang, Le Fan  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Chinese Journal of Vacuum Science and Technology  
