@@ -58,3 +58,9 @@ Chinese Journal of Vacuum Science and Technology
 <span style="color: #FFA559;">
 Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Particle Accelerator  
 </span>
+
+Teaching
+------
+**Teaching Experiences at UW:**  
+2025 Spring, ME 230 Kinematics and Dynamics  
+2025 Winter, ME 323 Thermal Dynamics  
