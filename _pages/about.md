@@ -67,5 +67,5 @@ Teaching
 
 Honors/Awards
 ------
-• Outstanding Undergraduate Scholarship for four consecutive year  
+• Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
