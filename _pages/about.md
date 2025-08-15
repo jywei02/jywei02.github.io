@@ -78,5 +78,4 @@ Honors/Awards
             srcset="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=lightgrey&label=">
     <img alt="Visitors"
          src="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=0e75b6&label=">
-  </picture>
   <strong>to this page.<strong>
