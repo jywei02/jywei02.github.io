@@ -6,7 +6,14 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+You are visitor <span id="visits"></span> to this page.
+<script>
+fetch('https://api.countapi.xyz/hit/jywei02.github.io/visits')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('visits').innerText = res.value;
+  });
+</script>
 Hi there! I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.
 
 Under Review
