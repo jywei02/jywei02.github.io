@@ -71,11 +71,26 @@ Honors/Awards
 
 <br>
 
-<p align="center">
-  <strong>Thanks for visiting my Page! You are visitor<strong>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" 
-            srcset="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=lightgrey&label=">
-    <img alt="Visitors"
-         src="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=0e75b6&label=">
-  <strong>to this page.<strong>
+<p id="counter" align="center" style="font-weight:700;">
+  Thanks for visiting my Page! You are visitor <span id="visits">…</span> to this page.
+</p>
+
+<script>
+  const NAMESPACE = 'jywei02.github.io';
+  const KEY = (location.pathname === '/' ? 'home' : location.pathname.replace(/\W+/g,'_'));
+  const URL = `https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/${encodeURIComponent(KEY)}`;
+
+  hit();
+
+  function hit(){
+    fetch(URL, { cache: 'no-store' })
+      .then(r => r.json())
+      .then(d => update(d.value))
+      .catch(() => update('N/A'));
+  }
+  function update(v){
+    document.getElementById('visits').textContent = v;
+    const m = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.getElementById('counter').style.color = m ? '#eaeaea' : '#222';
+  }
+</script>
