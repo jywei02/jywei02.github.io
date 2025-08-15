@@ -71,7 +71,7 @@ Honors/Awards
 
 <br>
 
-<p align="center">
+<p align="center" style="font-weight:700;">
   Thanks for visiting my Page! You are visitor
   <span id="busuanzi_value_site_pv"></span>
   to this page.
