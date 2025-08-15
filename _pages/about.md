@@ -6,14 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-You are visitor <span id="visits"></span> to this page.
-<script>
-fetch('https://api.countapi.xyz/hit/jywei02.github.io/visits')
-  .then(res => res.json())
-  .then(res => {
-    document.getElementById('visits').innerText = res.value;
-  });
-</script>
 Hi there! I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.
 
 Under Review
@@ -76,3 +68,16 @@ Honors/Awards
 ------
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
+
+<br>
+
+<p align="center">
+  <strong>Thanks for visiting my Page! You are visitor<strong>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=lightgrey&label=">
+    <img alt="Visitors"
+         src="https://komarev.com/ghpvc/?username=jywei02&style=flat&color=0e75b6&label=">
+  </picture>
+  <strong>to this page.<strong>
+</p>
