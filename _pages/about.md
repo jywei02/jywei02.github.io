@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p>Hi there! Thanks for visiting my Page! You are visitor
+<p>Hi there! Thanks for visiting my page! You are visitor
   <span id="busuanzi_value_site_pv"></span>
   to this page.</p>
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
