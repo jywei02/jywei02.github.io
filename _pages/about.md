@@ -72,12 +72,3 @@ Honors/Awards
 ------
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
-
-<br>
-
-<p align="center" style="font-weight:700;">
-  Thanks for visiting my Page! You are visitor
-  <span id="busuanzi_value_site_pv"></span>
-  to this page.
-</p>
-<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
