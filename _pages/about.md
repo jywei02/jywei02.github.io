@@ -71,26 +71,9 @@ Honors/Awards
 
 <br>
 
-<p id="counter" align="center" style="font-weight:700;">
-  Thanks for visiting my Page! You are visitor <span id="visits">…</span> to this page.
+<p align="center">
+  Thanks for visiting my Page! You are visitor
+  <span id="busuanzi_value_site_pv"></span>
+  to this page.
 </p>
-
-<script>
-  const NAMESPACE = 'jywei02.github.io';
-  const KEY = (location.pathname === '/' ? 'home' : location.pathname.replace(/\W+/g,'_'));
-  const URL = `https://api.countapi.xyz/hit/${encodeURIComponent(NAMESPACE)}/${encodeURIComponent(KEY)}`;
-
-  hit();
-
-  function hit(){
-    fetch(URL, { cache: 'no-store' })
-      .then(r => r.json())
-      .then(d => update(d.value))
-      .catch(() => update('N/A'));
-  }
-  function update(v){
-    document.getElementById('visits').textContent = v;
-    const m = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.getElementById('counter').style.color = m ? '#eaeaea' : '#222';
-  }
-</script>
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
