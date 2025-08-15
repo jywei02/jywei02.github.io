@@ -6,7 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.
+<p>Hi there! Thanks for visiting my Page! You are visitor
+  <span id="busuanzi_value_site_pv"></span>
+  to this page.
+I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.</p>
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 Under Review
 ------
