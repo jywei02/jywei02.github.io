@@ -69,84 +69,127 @@ Honors/Awards
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neon Counter — Jianya Wei</title>
+
+  <!-- 科幻风字体 -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
   <style>
-    .footer-counter {
+    :root{
+      --neon-cyan: #00e5ff;   /* 赛博蓝 */
+      --neon-violet: #9b5cff; /* 赛博紫 */
+      --text-light: #0d1b2a;  /* 浅色主题正文色 */
+      --text-dark:  #e6e6ff;  /* 深色主题正文色 */
+    }
+
+    .footer-counter{
       font-family: 'Orbitron', sans-serif;
       font-size: 18px;
       text-align: center;
-      color: #ff6600;
-      margin: 24px 0 8px;
+      line-height: 1.6;
+      color: var(--text-light);
+      margin: 28px 12px 10px;
+      letter-spacing: .2px;
     }
-    /* 轻微发光与呼吸动效 */
-    .footer-counter .glow {
-      text-shadow: 0 0 6px rgba(255, 102, 0, .6);
-      animation: breathe 3s ease-in-out infinite;
+
+    /* 霓虹发光（蓝紫叠加） */
+    .footer-counter .glow{
+      color: var(--neon-cyan);
+      text-shadow:
+        0 0 8px  rgba(0,229,255,.85),
+        0 0 16px rgba(0,229,255,.75),
+        0 0 24px rgba(155,92,255,.65),
+        0 0 36px rgba(155,92,255,.55);
+      animation: breathe 2.6s ease-in-out infinite;
     }
-    @keyframes breathe {
-      0%,100% { text-shadow: 0 0 6px rgba(255,102,0,.6); }
-      50%     { text-shadow: 0 0 14px rgba(255,102,0,.8); }
-    }
-    /* 深色模式换色（可自调） */
-    @media (prefers-color-scheme: dark) {
-      .footer-counter { color: #ffd199; }
-      .footer-counter .glow {
-        text-shadow: 0 0 8px rgba(255, 209, 153, .7);
+
+    @keyframes breathe{
+      0%,100%{
+        text-shadow:
+          0 0 10px rgba(0,229,255,.9),
+          0 0 22px rgba(0,229,255,.8),
+          0 0 34px rgba(155,92,255,.7),
+          0 0 46px rgba(155,92,255,.6);
+      }
+      50%{
+        text-shadow:
+          0 0 18px rgba(0,229,255,1),
+          0 0 36px rgba(0,229,255,.95),
+          0 0 58px rgba(155,92,255,.9),
+          0 0 82px rgba(155,92,255,.8);
       }
     }
-    /* 如果用户偏好减少动效，则关闭动画 */
-    @media (prefers-reduced-motion: reduce) {
-      .footer-counter .glow { animation: none; }
+
+    /* 深色主题下整体更亮一些 */
+    @media (prefers-color-scheme: dark){
+      body{ background: #0b0f18; color: var(--text-dark); }
+      .footer-counter{ color: var(--text-dark); }
+      .footer-counter .glow{
+        color: #b3f3ff;
+        text-shadow:
+          0 0 12px rgba(0,229,255,1),
+          0 0 28px rgba(0,229,255,.95),
+          0 0 48px rgba(155,92,255,.95),
+          0 0 90px rgba(155,92,255,.85);
+      }
+    }
+
+    /* 用户偏好减少动效时关闭动画 */
+    @media (prefers-reduced-motion: reduce){
+      .footer-counter .glow{ animation: none; }
     }
   </style>
 </head>
+
 <body>
+  <!-- 你的正文内容在上面，这里只演示页尾计数器 -->
   <p class="footer-counter">
     Thanks for reading this far! You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to this page.
   </p>
 
-  <!-- 不蒜子统计 -->
+  <!-- 不蒜子统计脚本 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   <script>
-    // 计数动画：从 0 平滑增加到真实值
+    // 从 0 平滑跳到真实访客数（带缓动），等待 busuanzi 写入后触发
     (function animateCounter(){
-      const el = document.getElementById('busuanzi_value_site_pv');
-      if (!el) return;
+      const node = document.getElementById('busuanzi_value_site_pv');
+      if (!node) return;
 
-      // 观察不蒜子把数字填进去的时刻
       const tryStart = () => {
-        const end = parseInt(el.textContent.replace(/,/g, ''), 10);
-        if (Number.isFinite(end) && end > 0) {
-          countUp(el, 0, end, 1200); // 1.2 秒完成
+        const end = parseInt((node.textContent || '0').replace(/,/g,''), 10);
+        if (Number.isFinite(end) && end > 0){
+          countUp(node, 0, end, 1400); // 1.4s 完成
           return true;
         }
         return false;
       };
 
-      // 如果已经有值，直接开跑；否则轮询几次
-      if (!tryStart()) {
+      if (!tryStart()){
         let tries = 0;
         const t = setInterval(() => {
-          if (tryStart() || ++tries > 40) clearInterval(t); // 最多等 ~4s
+          if (tryStart() || ++tries > 50) clearInterval(t); // 最多轮询 ~5s
         }, 100);
       }
 
-      function countUp(node, start, end, duration){
-        // 遵循“减少动效”偏好
+      function countUp(el, start, end, duration){
         const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        if (reduce || duration <= 0) { node.textContent = end.toLocaleString(); return; }
+        if (reduce || duration <= 0){ el.textContent = end.toLocaleString(); return; }
 
-        const startTime = performance.now();
         const ease = x => 1 - Math.pow(1 - x, 3); // easeOutCubic
+        const t0 = performance.now();
 
         function frame(now){
-          const p = Math.min(1, (now - startTime) / duration);
-          const val = Math.round(start + (end - start) * ease(p));
-          node.textContent = val.toLocaleString();
+          const p = Math.min(1, (now - t0) / duration);
+          const v = Math.round(start + (end - start) * ease(p));
+          el.textContent = v.toLocaleString();
           if (p < 1) requestAnimationFrame(frame);
         }
         requestAnimationFrame(frame);
@@ -154,3 +197,4 @@ Honors/Awards
     })();
   </script>
 </body>
+</html>
