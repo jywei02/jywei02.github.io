@@ -98,31 +98,39 @@ Honors/Awards
     }
 
     .footer-counter .glow{
-      color: var(--neon-cyan);
-      text-shadow:
-        0 0 8px  rgba(0,229,255,.85),
-        0 0 16px rgba(0,229,255,.75),
-        0 0 24px rgba(155,92,255,.65),
-        0 0 36px rgba(155,92,255,.55);
-      animation: breathe 2.6s ease-in-out infinite;
-    }
+  color: #8ad8ff; /* 让文字本身更亮，增强对比 */
+  text-shadow:
+    /* 蓝色内圈 */
+    0 0 12px  rgba(0,229,255,1),
+    0 0 28px  rgba(0,229,255,.95),
+    0 0 44px  rgba(0,229,255,.9),
+    /* 紫色外圈 */
+    0 0 60px  rgba(155,92,255,.85),
+    0 0 90px  rgba(155,92,255,.8),
+    0 0 120px rgba(155,92,255,.75);
+  animation: breathe 2.2s ease-in-out infinite;
+}
 
-    @keyframes breathe{
-      0%,100%{
-        text-shadow:
-          0 0 10px rgba(0,229,255,.9),
-          0 0 22px rgba(0,229,255,.8),
-          0 0 34px rgba(155,92,255,.7),
-          0 0 46px rgba(155,92,255,.6);
-      }
-      50%{
-        text-shadow:
-          0 0 18px rgba(0,229,255,1),
-          0 0 36px rgba(0,229,255,.95),
-          0 0 58px rgba(155,92,255,.9),
-          0 0 82px rgba(155,92,255,.8);
-      }
-    }
+@keyframes breathe{
+  0%,100%{
+    text-shadow:
+      0 0 14px  rgba(0,229,255,1),
+      0 0 34px  rgba(0,229,255,.95),
+      0 0 56px  rgba(0,229,255,.92),
+      0 0 78px  rgba(155,92,255,.9),
+      0 0 110px rgba(155,92,255,.85),
+      0 0 150px rgba(155,92,255,.8);
+  }
+  50%{
+    text-shadow:
+      0 0 22px  rgba(0,229,255,1),
+      0 0 56px  rgba(0,229,255,1),
+      0 0 88px  rgba(0,229,255,.98),
+      0 0 130px rgba(155,92,255,.95),
+      0 0 180px rgba(155,92,255,.9),
+      0 0 240px rgba(155,92,255,.85);
+  }
+}
 
     @media (prefers-color-scheme: dark){
       .footer-counter{ color: var(--text-dark); }
