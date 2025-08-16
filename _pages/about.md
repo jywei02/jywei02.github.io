@@ -71,26 +71,43 @@ Honors/Awards
 
 <br>
 
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-  <style>
-    .visitor-counter {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 18px;
-      font-weight: bold;
-      color: #8ecdfc; /* 淡蓝色字体 */
-      text-align: center;
-      margin-top: 40px;
-      text-shadow: 0 0 6px #8ecdfc, 0 0 12px #5a9dfc; /* 发光效果 */
-    }
-  </style>
-</head>
+<!-- 只数字 glow，其他文字同色但不发光 -->
+<p class="visitor-line">
+  Thanks for reading this far! You are visitor
+  <span id="busuanzi_value_site_pv" class="glow">0</span>
+  to this page.
+</p>
 
-<body>
-  <p class="visitor-counter">
-    Thanks for reading this far! You are visitor
-    <span id="busuanzi_value_site_pv"></span>
-    to this page.
-  </p>
-  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-</body>
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<style>
+  :root { --accent: #0ea5ff; } /* 统一颜色：改这里即可 */
+
+  .visitor-line{
+    text-align:center;
+    font: 600 16px/1.6 system-ui, -apple-system, Arial;
+    margin:40px 12px 16px;
+    color: var(--accent);       /* 文字与数字同色 */
+  }
+
+  /* 只有数字发光（动态呼吸） */
+  #busuanzi_value_site_pv.glow{
+    display:inline-block;
+    animation: glow 3s ease-in-out infinite;
+    text-shadow:
+      0 0 6px rgba(14,165,255,.60),
+      0 0 14px rgba(14,165,255,.45);
+  }
+  @keyframes glow{
+    0%,100%{
+      text-shadow:
+        0 0 6px  rgba(14,165,255,.60),
+        0 0 14px rgba(14,165,255,.45);
+    }
+    50%{
+      text-shadow:
+        0 0 12px rgba(14,165,255,.85),
+        0 0 26px rgba(14,165,255,.60);
+    }
+  }
+</style>
