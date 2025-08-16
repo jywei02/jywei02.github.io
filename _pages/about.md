@@ -71,21 +71,9 @@ Honors/Awards
 
 <br>
 
-<p id="footerCounter" class="footer-counter fade-in">
+<p style="text-align:center; font-family: system-ui, -apple-system, Arial; font-size:16px; margin:40px 12px 16px;">
   Thanks for reading this far! You are visitor
-  <span id="busuanzi_value_site_pv">0</span>
-  to this page.
+  <span id="busuanzi_value_site_pv"></span>
+  to this page!
 </p>
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<style>
-.footer-counter{ text-align:center; font: 500 18px/1.6 system-ui, -apple-system, Arial; margin:40px 12px 16px; }
-.fade-in{ opacity:0; transform: scale(.96); transition: opacity .6s ease, transform .6s ease; }
-.fade-in.on{ opacity:1; transform: none; }
-</style>
-<script>
-  // 仅当页尾进入视口时触发一次
-  new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');}})}).observe(
-    document.getElementById('footerCounter')
-  );
-</script>
