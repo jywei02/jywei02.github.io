@@ -127,7 +127,8 @@ Honors/Awards
 </head>
 <body>
   <p class="footer-counter">
-    Thanks for reading this far! You are visitor
+    Thanks for reading this far!<br> 
+    You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to this page.
   </p>
