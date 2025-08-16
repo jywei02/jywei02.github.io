@@ -78,7 +78,6 @@ Honors/Awards
       font-family: 'Orbitron', sans-serif;
       font-size: 18px;
       text-align: center;
-      color: #8ab4ff; /* 静态蓝紫色 */
       margin: 24px 0 8px;
     }
 
