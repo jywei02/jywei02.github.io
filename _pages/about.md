@@ -74,27 +74,36 @@ Honors/Awards
 <!-- 页尾计数器（点击数字触发彩纸雨） -->
 <p style="text-align:center; font-family: system-ui, -apple-system, Arial; font-size:16px; margin:40px 12px 16px;">
   Thanks for reading this far! You are visitor
-  <span id="busuanzi_value_site_pv" style="cursor:pointer; text-decoration: underline;">0</span>
+  <span id="busuanzi_value_site_pv">0</span>
   to this page.
 </p>
 <!-- 不蒜子统计 -->
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<style>
+  /* 确保无论 busuanzi 如何替换节点，点击样式都在 */
+  #busuanzi_value_site_pv {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+</style>
+
 <script>
 (function(){
-  const num = document.getElementById('busuanzi_value_site_pv');
-  if (!num) return;
-
-  let cooling = false; // 简单节流，避免连点造成太多画布
-  num.addEventListener('click', () => {
-    if (cooling) return;
-    cooling = true; setTimeout(()=> cooling=false, 800);
-    confettiRain();
+  // 事件委托：监听整个文档的点击，只要点到了计数数字就触发
+  let cooling = false; // 简单节流避免短时间重复触发
+  document.addEventListener('click', function(e){
+    const target = e.target;
+    if (!target) return;
+    if (target.id === 'busuanzi_value_site_pv') {
+      if (cooling) return;
+      cooling = true; setTimeout(()=> cooling=false, 800);
+      confettiRain();
+    }
   });
 
   // ===== 全页彩纸雨 =====
   function confettiRain(){
-    // 创建或复用覆盖全屏的 canvas
     const id = 'confetti-canvas';
     let cvs = document.getElementById(id);
     if (!cvs) {
@@ -107,89 +116,82 @@ Honors/Awards
       document.body.appendChild(cvs);
     }
     const ctx = cvs.getContext('2d');
+
+    function resize(){
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      cvs.width  = Math.round(window.innerWidth * dpr);
+      cvs.height = Math.round(window.innerHeight * dpr);
+      ctx.setTransform(dpr,0,0,dpr,0,0);
+    }
     resize();
     const onResize = () => resize();
     window.addEventListener('resize', onResize);
 
-    // 生成粒子
     const W = window.innerWidth, H = window.innerHeight;
     const COLORS = ['#00e5ff','#9b5cff','#ff66cc','#ffd166','#7cffcb','#ff4d4f','#52c41a'];
     const particles = [];
-    const WAVES = 6;              // 连续几波
+    const WAVES = 6;                    // 连续几波
     const PER_WAVE = Math.max(80, Math.min(220, Math.floor(W * 0.18)));
-    const DURATION = 2600;        // 毫秒（总动画时间上限）
-    const GRAVITY = 0.18;         // 重力
-    const DRAG = 0.992;           // 阻尼
-    const WIND = (Math.random()*0.6-0.3); // 横向风
+    const DURATION = 2600;              // 毫秒
+    const GRAVITY = 0.18;               // 重力
+    const DRAG = 0.992;                 // 阻尼
+    const WIND0 = (Math.random()*0.6-0.3);
     const START_TIME = performance.now();
 
-    // 生成一波从顶部随机位置下落的彩纸
     function spawnWave(){
       for (let i = 0; i < PER_WAVE; i++){
         const x = Math.random() * W;
-        const y = -20 - Math.random() * H * 0.3; // 从视口上方一点生成
-        const w = 6 + Math.random()*8;           // 宽
-        const h = 10 + Math.random()*12;         // 高
-        const ang = Math.random() * Math.PI * 2; // 初始角
-        const spin = (Math.random()*2-1) * 0.15; // 旋转速度
-        const vy = 1 + Math.random()*2;          // 初速度（下）
-        const vx = (Math.random()*2-1) * 0.8;    // 初速度（横）
+        const y = -20 - Math.random() * H * 0.3;
+        const w = 6 + Math.random()*8;
+        const h = 10 + Math.random()*12;
+        const ang = Math.random() * Math.PI * 2;
+        const spin = (Math.random()*2-1) * 0.15;
+        const vy = 1 + Math.random()*2;
+        const vx = (Math.random()*2-1) * 0.8;
         particles.push({
           x, y, w, h,
           vx, vy,
           angle: ang, spin,
           color: COLORS[(Math.random()*COLORS.length)|0],
-          tilt: Math.random()*Math.PI,  // 用来模拟双面翻转
-          life: 1                       // 生存标记（0~1）
+          tilt: Math.random()*Math.PI,
+          life: 1
         });
       }
     }
+    for (let k=0; k<WAVES; k++) setTimeout(spawnWave, k*160);
 
-    // 连续几波
-    for (let k = 0; k < WAVES; k++){
-      setTimeout(spawnWave, k * 160); // 每 160ms 一波
-    }
-
-    // 主循环
     let raf;
     function tick(now){
       const elapsed = now - START_TIME;
       ctx.clearRect(0,0,cvs.width,cvs.height);
 
-      // 轻微风力随时间缓慢变化
-      const wind = WIND + Math.sin(now/900) * 0.1;
+      const wind = WIND0 + Math.sin(now/900) * 0.1;
 
       for (let p of particles){
-        // 运动学
         p.vx = (p.vx + wind) * DRAG;
         p.vy = (p.vy + GRAVITY) * DRAG;
         p.x  += p.vx;
         p.y  += p.vy;
         p.angle += p.spin;
 
-        // “翻面”闪烁：用余弦模拟朝向（两面不同亮度）
         p.tilt += 0.12 + Math.random()*0.04;
-        const flip = (Math.cos(p.tilt) + 1) / 2; // 0~1
-        const alpha = 0.85 - (elapsed / DURATION) * 0.35; // 逐渐淡出
+        const flip = (Math.cos(p.tilt)+1)/2; // 0~1
+        const alpha = 0.9 - (elapsed / DURATION) * 0.4;
 
-        // 绘制为旋转矩形（confetti）
         ctx.save();
         ctx.translate(p.x, p.y);
         ctx.rotate(p.angle);
-        ctx.fillStyle = withAlpha(p.color, Math.max(0, alpha) * (0.65 + 0.35*flip));
+        ctx.fillStyle = rgba(p.color, Math.max(0, alpha) * (0.65 + 0.35*flip));
         ctx.fillRect(-p.w/2, -p.h/2, p.w, p.h);
         ctx.restore();
 
-        // 超出屏幕下方或时间到，标记衰减
         if (p.y > H + 40) p.life = 0;
       }
 
-      // 过滤存活
-      for (let i = particles.length-1; i >= 0; i--){
+      for (let i=particles.length-1; i>=0; i--){
         if (particles[i].life <= 0) particles.splice(i,1);
       }
 
-      // 结束条件：时间到 + 粒子清空
       if (elapsed < DURATION || particles.length){
         raf = requestAnimationFrame(tick);
       } else {
@@ -198,15 +200,8 @@ Honors/Awards
     }
     raf = requestAnimationFrame(tick);
 
-    function resize(){
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
-      cvs.width = Math.round(window.innerWidth * dpr);
-      cvs.height = Math.round(window.innerHeight * dpr);
-      ctx.setTransform(dpr,0,0,dpr,0,0);
-    }
-    function withAlpha(hex, a){
-      const c = hex.replace('#','');
-      const n = parseInt(c,16);
+    function rgba(hex, a){
+      const c = hex.replace('#',''); const n = parseInt(c,16);
       const r = (n>>16)&255, g=(n>>8)&255, b=n&255;
       return `rgba(${r},${g},${b},${a})`;
     }
