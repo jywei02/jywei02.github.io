@@ -75,59 +75,46 @@ Honors/Awards
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     .footer-counter {
-      font-family: 'Orbitron', sans-serif;
+      font-family: sans-serif; /* 这里保持默认字体，不指定颜色 */
       font-size: 18px;
       text-align: center;
       margin: 24px 0 8px;
     }
-
-    /* 彩色循环霓虹光效 */
+    /* 数字专属赛博蓝紫发光 */
     .footer-counter .glow {
-      animation: neon-cycle 6s ease-in-out infinite;
+      font-family: 'Orbitron', sans-serif;
+      color: #6a5acd; /* 基础紫色 */
+      text-shadow: 
+        0 0 5px #6a5acd,
+        0 0 10px #8a2be2,
+        0 0 20px #00ffff;
+      animation: neonPulse 6s infinite alternate;
     }
-
-    @keyframes neon-cycle {
+    @keyframes neonPulse {
       0% {
-        color: #8ab4ff;
-        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
-                     0 0 24px rgba(0, 200, 255, 0.8),
-                     0 0 36px rgba(0, 200, 255, 0.6);
+        text-shadow: 
+          0 0 5px #6a5acd,
+          0 0 10px #8a2be2,
+          0 0 20px #00ffff;
       }
-      33% {
-        color: #b388ff;
-        text-shadow: 0 0 12px rgba(179, 136, 255, 0.9),
-                     0 0 24px rgba(162, 0, 255, 0.8),
-                     0 0 36px rgba(162, 0, 255, 0.6);
-      }
-      66% {
-        color: #00f5d4;
-        text-shadow: 0 0 12px rgba(0, 245, 212, 0.9),
-                     0 0 24px rgba(0, 180, 255, 0.8),
-                     0 0 36px rgba(0, 180, 255, 0.6);
+      50% {
+        text-shadow: 
+          0 0 10px #8a2be2,
+          0 0 20px #00ffff,
+          0 0 40px #6a5acd;
       }
       100% {
-        color: #8ab4ff;
-        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
-                     0 0 24px rgba(0, 200, 255, 0.8),
-                     0 0 36px rgba(0, 200, 255, 0.6);
+        text-shadow: 
+          0 0 5px #6a5acd,
+          0 0 10px #8a2be2,
+          0 0 20px #00ffff;
       }
-    }
-
-    /* 深色模式下更亮一些 */
-    @media (prefers-color-scheme: dark) {
-      .footer-counter { color: #b388ff; }
-    }
-
-    /* 减少动效时关闭动画 */
-    @media (prefers-reduced-motion: reduce) {
-      .footer-counter .glow { animation: none; }
     }
   </style>
 </head>
 <body>
   <p class="footer-counter">
-    Thanks for reading this far!<br> 
-    You are visitor
+    Thanks for reading this far! You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to this page.
   </p>
