@@ -69,24 +69,24 @@ Honors/Awards
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Neon Counter — Jianya Wei</title>
+  <title>Footer Counter</title>
 
-  <!-- 科幻风字体 -->
+  <!-- 科幻风字体（仅作用于计数器） -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 
   <style>
     :root{
-      --neon-cyan: #00e5ff;   /* 赛博蓝 */
-      --neon-violet: #9b5cff; /* 赛博紫 */
-      --text-light: #0d1b2a;  /* 浅色主题正文色 */
-      --text-dark:  #e6e6ff;  /* 深色主题正文色 */
+      --neon-cyan:   #00e5ff;  /* 赛博蓝 */
+      --neon-violet: #9b5cff;  /* 赛博紫 */
+      --text-light:  #0d1b2a;  /* 浅色主题下计数器文字色 */
+      --text-dark:   #e6e6ff;  /* 深色主题下计数器文字色 */
     }
 
+    /* 仅计数器区域样式（不影响全站） */
     .footer-counter{
       font-family: 'Orbitron', sans-serif;
       font-size: 18px;
@@ -125,9 +125,8 @@ Honors/Awards
       }
     }
 
-    /* 深色主题下整体更亮一些 */
+    /* 深色模式下仅调整计数器自身颜色/光效 */
     @media (prefers-color-scheme: dark){
-      body{ background: #0b0f18; color: var(--text-dark); }
       .footer-counter{ color: var(--text-dark); }
       .footer-counter .glow{
         color: #b3f3ff;
@@ -139,26 +138,25 @@ Honors/Awards
       }
     }
 
-    /* 用户偏好减少动效时关闭动画 */
     @media (prefers-reduced-motion: reduce){
       .footer-counter .glow{ animation: none; }
     }
   </style>
 </head>
-
 <body>
-  <!-- 你的正文内容在上面，这里只演示页尾计数器 -->
+
+  <!-- 你的页面内容在上方，这里只示例页尾计数器 -->
   <p class="footer-counter">
     Thanks for reading this far! You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
-    to this page.
+    to this page!
   </p>
 
-  <!-- 不蒜子统计脚本 -->
+  <!-- 不蒜子统计脚本（负责把真实访问量写入 span） -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+  <!-- 数字从 0 平滑增加到真实值（只影响计数器） -->
   <script>
-    // 从 0 平滑跳到真实访客数（带缓动），等待 busuanzi 写入后触发
     (function animateCounter(){
       const node = document.getElementById('busuanzi_value_site_pv');
       if (!node) return;
@@ -172,10 +170,11 @@ Honors/Awards
         return false;
       };
 
+      // 如果不蒜子尚未写入值，就轮询等待
       if (!tryStart()){
         let tries = 0;
         const t = setInterval(() => {
-          if (tryStart() || ++tries > 50) clearInterval(t); // 最多轮询 ~5s
+          if (tryStart() || ++tries > 50) clearInterval(t); // 最多等 ~5s
         }, 100);
       }
 
@@ -196,5 +195,6 @@ Honors/Awards
       }
     })();
   </script>
+
 </body>
 </html>
