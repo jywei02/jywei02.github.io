@@ -6,13 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p>
-  Hi there! Thanks for visiting my page! You are visitor
-  <span id="busuanzi_value_site_pv"></span>
-  to this page.<br>
-  I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.
-</p>
-<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+Hi there! I’m a Master’s student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications.
 
 Under Review
 ------
@@ -74,3 +68,15 @@ Honors/Awards
 ------
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <p align="center" style="font-family: 'Orbitron', sans-serif; font-size:18px; color:#ff6600;">
+    Thanks for reading this far! You are visitor
+    <span id="busuanzi_value_site_pv"></span>
+    to this page.
+  </p>
+  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</body>
