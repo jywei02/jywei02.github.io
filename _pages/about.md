@@ -69,13 +69,14 @@ Honors/Awards
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
+<br>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Footer Counter</title>
 
-  <!-- 科幻风字体（仅作用于计数器） -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 
   <style>
@@ -86,7 +87,6 @@ Honors/Awards
       --text-dark:   #e6e6ff;  /* 深色主题下计数器文字色 */
     }
 
-    /* 仅计数器区域样式（不影响全站） */
     .footer-counter{
       font-family: 'Orbitron', sans-serif;
       font-size: 18px;
@@ -97,7 +97,6 @@ Honors/Awards
       letter-spacing: .2px;
     }
 
-    /* 霓虹发光（蓝紫叠加） */
     .footer-counter .glow{
       color: var(--neon-cyan);
       text-shadow:
@@ -125,7 +124,6 @@ Honors/Awards
       }
     }
 
-    /* 深色模式下仅调整计数器自身颜色/光效 */
     @media (prefers-color-scheme: dark){
       .footer-counter{ color: var(--text-dark); }
       .footer-counter .glow{
@@ -145,17 +143,14 @@ Honors/Awards
 </head>
 <body>
 
-  <!-- 你的页面内容在上方，这里只示例页尾计数器 -->
   <p class="footer-counter">
     Thanks for reading this far! You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to this page!
   </p>
 
-  <!-- 不蒜子统计脚本（负责把真实访问量写入 span） -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-  <!-- 数字从 0 平滑增加到真实值（只影响计数器） -->
   <script>
     (function animateCounter(){
       const node = document.getElementById('busuanzi_value_site_pv');
