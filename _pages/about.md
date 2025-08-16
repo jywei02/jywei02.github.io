@@ -71,43 +71,67 @@ Honors/Awards
 
 <br>
 
-<!-- 只数字 glow，其他文字同色但不发光 -->
-<p class="visitor-line">
-  Thanks for reading this far! You are visitor
-  <span id="busuanzi_value_site_pv" class="glow">0</span>
-  to this page.
-</p>
-
-<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-<style>
-  :root { --accent: #0ea5ff; } /* 统一颜色：改这里即可 */
-
-  .visitor-line{
-    text-align:center;
-    font: 600 16px/1.6 system-ui, -apple-system, Arial;
-    margin:40px 12px 16px;
-    color: var(--accent);       /* 文字与数字同色 */
-  }
-
-  /* 只有数字发光（动态呼吸） */
-  #busuanzi_value_site_pv.glow{
-    display:inline-block;
-    animation: glow 3s ease-in-out infinite;
-    text-shadow:
-      0 0 6px rgba(14,165,255,.60),
-      0 0 14px rgba(14,165,255,.45);
-  }
-  @keyframes glow{
-    0%,100%{
-      text-shadow:
-        0 0 6px  rgba(14,165,255,.60),
-        0 0 14px rgba(14,165,255,.45);
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    .footer-counter {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      color: #8ab4ff; /* 静态蓝紫色 */
+      margin: 24px 0 8px;
     }
-    50%{
-      text-shadow:
-        0 0 12px rgba(14,165,255,.85),
-        0 0 26px rgba(14,165,255,.60);
+
+    /* 彩色循环霓虹光效 */
+    .footer-counter .glow {
+      animation: neon-cycle 6s ease-in-out infinite;
     }
-  }
-</style>
+
+    @keyframes neon-cycle {
+      0% {
+        color: #8ab4ff;
+        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
+                     0 0 24px rgba(0, 200, 255, 0.8),
+                     0 0 36px rgba(0, 200, 255, 0.6);
+      }
+      33% {
+        color: #b388ff;
+        text-shadow: 0 0 12px rgba(179, 136, 255, 0.9),
+                     0 0 24px rgba(162, 0, 255, 0.8),
+                     0 0 36px rgba(162, 0, 255, 0.6);
+      }
+      66% {
+        color: #00f5d4;
+        text-shadow: 0 0 12px rgba(0, 245, 212, 0.9),
+                     0 0 24px rgba(0, 180, 255, 0.8),
+                     0 0 36px rgba(0, 180, 255, 0.6);
+      }
+      100% {
+        color: #8ab4ff;
+        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
+                     0 0 24px rgba(0, 200, 255, 0.8),
+                     0 0 36px rgba(0, 200, 255, 0.6);
+      }
+    }
+
+    /* 深色模式下更亮一些 */
+    @media (prefers-color-scheme: dark) {
+      .footer-counter { color: #b388ff; }
+    }
+
+    /* 减少动效时关闭动画 */
+    @media (prefers-reduced-motion: reduce) {
+      .footer-counter .glow { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <p class="footer-counter">
+    Thanks for reading this far! You are visitor
+    <span id="busuanzi_value_site_pv" class="glow">0</span>
+    to this page.
+  </p>
+
+  <!-- 不蒜子统计 -->
+  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+</body>
