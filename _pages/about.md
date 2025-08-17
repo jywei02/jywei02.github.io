@@ -130,7 +130,7 @@ Honors/Awards
     Thanks for reading this far!<br> 
     You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
-    to this page.
+    to my page.
   </p>
 
   <!-- 不蒜子统计 -->
