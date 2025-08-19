@@ -130,11 +130,6 @@ Honors/Awards
     to my page.
   </p>
 
-  <!-- 固定的小字说明 -->
-  <p class="footer-note">
-    If it shows 0, the API might be down (｡•́︿•̀｡)
-  </p>
-
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
