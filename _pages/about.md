@@ -85,7 +85,7 @@ Honors/Awards
     .footer-note {
       font-size: 14px;
       text-align: center;
-      color: #999;
+      color: #888;
       margin-top: 4px;
     }
 
@@ -119,14 +119,6 @@ Honors/Awards
                      0 0 36px rgba(0, 200, 255, 0.6);
       }
     }
-
-    @media (prefers-color-scheme: dark) {
-      .footer-counter { color: #b388ff; }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .footer-counter .glow { animation: none; }
-    }
   </style>
 </head>
 <body>
@@ -137,21 +129,11 @@ Honors/Awards
     to my page.
   </p>
 
-  <!-- 新增提示行 -->
-  <p id="api-status" class="footer-note" style="display:none;">
-    (´･ω･`) The counter shows 0, API might be down.
+  <!-- 固定的小字说明 -->
+  <p class="footer-note">
+    (´･ω･`) If it shows 0, the API might be down.
   </p>
 
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <script>
-    // 检查值是否为 0，如果是则显示提示
-    setTimeout(() => {
-      const el = document.getElementById('busuanzi_value_site_pv');
-      const note = document.getElementById('api-status');
-      if (el && el.textContent.trim() === "0") {
-        note.style.display = "block";
-      }
-    }, 3000); // 等待3秒，给API加载时间
-  </script>
 </body>
