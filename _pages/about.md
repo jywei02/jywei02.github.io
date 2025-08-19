@@ -70,6 +70,7 @@ Honors/Awards
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
 <br>
+<br>
 
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
@@ -131,7 +132,7 @@ Honors/Awards
 
   <!-- 固定的小字说明 -->
   <p class="footer-note">
-    (´･ω･`) If it shows 0, the API might be down.
+    If it shows 0, the API might be down (｡•́︿•̀｡)
   </p>
 
   <!-- 不蒜子统计 -->
