@@ -78,11 +78,17 @@ Honors/Awards
       font-family: 'Orbitron', sans-serif;
       font-size: 18px;
       text-align: center;
-      color: #8ab4ff; /* 静态蓝紫色 */
+      color: #8ab4ff;
       margin: 24px 0 8px;
     }
 
-    /* 彩色循环霓虹光效 */
+    .footer-note {
+      font-size: 14px;
+      text-align: center;
+      color: #999;
+      margin-top: 4px;
+    }
+
     .footer-counter .glow {
       animation: neon-cycle 6s ease-in-out infinite;
     }
@@ -114,12 +120,10 @@ Honors/Awards
       }
     }
 
-    /* 深色模式下更亮一些 */
     @media (prefers-color-scheme: dark) {
       .footer-counter { color: #b388ff; }
     }
 
-    /* 减少动效时关闭动画 */
     @media (prefers-reduced-motion: reduce) {
       .footer-counter .glow { animation: none; }
     }
@@ -133,6 +137,21 @@ Honors/Awards
     to my page.
   </p>
 
+  <!-- 新增提示行 -->
+  <p id="api-status" class="footer-note" style="display:none;">
+    (´･ω･`) The counter shows 0, API might be down.
+  </p>
+
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script>
+    // 检查值是否为 0，如果是则显示提示
+    setTimeout(() => {
+      const el = document.getElementById('busuanzi_value_site_pv');
+      const note = document.getElementById('api-status');
+      if (el && el.textContent.trim() === "0") {
+        note.style.display = "block";
+      }
+    }, 3000); // 等待3秒，给API加载时间
+  </script>
 </body>
