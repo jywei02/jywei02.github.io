@@ -61,6 +61,7 @@ Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Pa
 Teaching
 ------
 **Teaching Experiences at UW:**  
+• 2025 Autumn, ME 531 Conductive Heat Transfer  
 • 2025 Spring, ME 230 Kinematics and Dynamics  
 • 2025 Winter, ME 323 Thermal Dynamics  
 
