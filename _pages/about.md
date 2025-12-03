@@ -8,9 +8,6 @@ redirect_from:
 ---
 Hi there! I’m a Master of Science student in Mechanical Engineering at the University of Washington, Seattle. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing for aerospace applications. Master thesis title: <em>A Study of the Portable and Fully Automated Artificial Kidney</em>. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
 
-
-Under Review
-------
 A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paint  
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
@@ -23,6 +20,17 @@ Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Tra
 
 Publications
 ------
+A Tristimulus Value Transformation Calibration Method for Spectral Emission Separation in Dual-Dye Pressure-Sensitive Paint  
+**Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
+<span style="font-family: 'Times New Roman', serif; font-style: italic;">
+Sensors and Actuators A: Physical  
+</span>
+<span style="color: #FFA559;">
+Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
+</span>
+<span style="color:#FF5733;">✦ This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FF5733;">Caltech GALCIT Colloquium</a> in March 2025.  </span>
+
+
 <span style="color: #40E0D0;">[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  </span><br>
 Wenjing Ma, Xiaopeng Xu, **Jianya Wei**, Yonghao Gao, Xiaoqin Ge, Wenli Zhang, Le Fan, Yuanzhi Hong, Tao Huang, Sihui Wang  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
