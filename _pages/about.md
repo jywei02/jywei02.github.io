@@ -18,7 +18,9 @@ Sensors and Actuators A: Physical
 <span style="color: #FFA559;">
 Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
 </span>
+<!--
 <span style="color:#FF5733;">✦ This work was presented at <a href="https://www.caltech.edu/campus-life-events/calendar/galcit-colloquium-378" style="color:#FF5733;">Caltech GALCIT Colloquium</a> in March 2025.  </span>
+-->
 
 
 <span style="color: #40E0D0;">[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  </span><br>
