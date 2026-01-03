@@ -10,7 +10,7 @@ Hi there! I’m a Master of Science student in Mechanical Engineering at the Uni
 
 Publications
 ------
-<span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br> (Accepted)  
+<span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Sensors and Actuators A: Physical  
@@ -62,6 +62,7 @@ Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Pa
 Teaching
 ------
 **TA Experiences at UW:**  
+• 2026 Winter, ME 535 Computational Techniques in Mechanical Engineering  
 • 2025 Autumn, ME 531 Conductive Heat Transfer  
 • 2025 Spring, ME 230 Kinematics and Dynamics  
 • 2025 Winter, ME 323 Thermal Dynamics  
