@@ -136,3 +136,7 @@ Honors/Awards
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
+
+<p class="footer-note">
+  Last updated · {{ site.time | date: "%b %d, %Y" }}
+</p>
