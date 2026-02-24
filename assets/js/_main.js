@@ -31,7 +31,7 @@ const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 
 //     $("html").attr("data-theme") ||
 //     browserPref;
 // 2026 feb24 update
-const use_theme = theme || localStorage.getItem("theme") || "dark";
+const use_theme = "dark";
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
