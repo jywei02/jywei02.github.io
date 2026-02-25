@@ -138,5 +138,6 @@ Honors/Awards
 </body>
 
 <p class="footer-note">
-  Last updated · {{ site.time | date: "%b %d, %Y" }}
+  <!-- Last updated · {{ site.time | date: "%b %d, %Y" }} -->
+  Last updated : Feb 6, 2026
 </p>
