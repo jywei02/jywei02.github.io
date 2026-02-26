@@ -11,7 +11,7 @@ Hi there! I’m a Master of Science student in Mechanical Engineering at the <a 
 Publications
 ------
 <span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
-**Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri  
+**Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Sensors and Actuators A: Physical  
 </span>
@@ -24,7 +24,7 @@ Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Tra
 
 
 <span style="color: #40E0D0;">[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  </span><br>
-Wenjing Ma, Xiaopeng Xu, **Jianya Wei**, Yonghao Gao, Xiaoqin Ge, Wenli Zhang, Le Fan, Yuanzhi Hong, Tao Huang, Sihui Wang  
+Wenjing Ma, Xiaopeng Xu, **Jianya Wei**, Yonghao Gao, Xiaoqin Ge, Wenli Zhang, Le Fan, Yuanzhi Hong, Tao Huang, Sihui Wang<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Applied Surface Science  
 </span>
@@ -42,7 +42,7 @@ Keywords: Vacuum Chamber, Thermal-mechanical Analysis, Synchrotron Radiation Fac
 </span>
 
 <span style="color: #40E0D0;">[Vacuum Performance of Activated NEG Coatings under Neon Venting](http://cjvst.cvs.org.cn/en/article/doi/10.13922/j.cnki.cjvst.202305002)  </span><br>
-Xiaopeng Xu, Wenjing Ma, **Jianya Wei**, Xiaoqin Ge, Le Fan, Yuanzhi Hong, Le Fan, Yuanzhi Hong, Xiaowei Xia, Tao Huang, Sihui Wang  
+Xiaopeng Xu, Wenjing Ma, **Jianya Wei**, Xiaoqin Ge, Le Fan, Yuanzhi Hong, Le Fan, Yuanzhi Hong, Xiaowei Xia, Tao Huang, Sihui Wang<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Chinese Journal of Vacuum Science and Technology  
 </span>
@@ -51,7 +51,7 @@ Keywords: Ti-Zr-V Coatings, Neon Protecting, HALF, Ultra-high Vacuum, Activation
 </span>
 
 <span style="color: #40E0D0;">[Multi-Chamber TiZrV Coating in OFS Copper Vacuum Chamber for HALF](https://www.cpsjournals.cn/article/doi/10.13922/j.cnki.cjvst.202207022?viewType=HTML)  </span><br>
-Zhuang Zhao, Wenjing Ma, Xiaoqin Ge, Sihui Wang, Yuanzhi Hong, **Jianya Wei**, Shancai Zhang, Le Fan  
+Zhuang Zhao, Wenjing Ma, Xiaoqin Ge, Sihui Wang, Yuanzhi Hong, **Jianya Wei**, Shancai Zhang, Le Fan<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
 Chinese Journal of Vacuum Science and Technology  
 </span>
