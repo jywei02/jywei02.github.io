@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! I’m a Master of Science student in Mechanical Engineering at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing. Master thesis title: A Study of the Portable and Fully Automated Artificial Kidney. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
+Hi there! I am a Master of Science student in Mechanical Engineering at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing. Master thesis title: A Study of the Portable and Fully Automated Artificial Kidney. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
 
 Publications
 ------
