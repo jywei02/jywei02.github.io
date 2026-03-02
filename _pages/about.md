@@ -13,7 +13,7 @@ Publications
 <span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Sensors and Actuators A: Physical  
+Sensors and Actuators A: Physical, 2025  
 </span>
 <span style="color: #FFA559;">
 Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Transformation  
@@ -26,7 +26,7 @@ Keywords: Pressure-sensitive Paint, Dual-dye Luminescence, Tristimulus Value Tra
 <span style="color: #40E0D0;">[Effect of thermal cycling on microstructure and adhesion properties of Ti-Zr-V thin films](https://www.sciencedirect.com/science/article/abs/pii/S0169433223029197)  </span><br>
 Wenjing Ma, Xiaopeng Xu, **Jianya Wei**, Yonghao Gao, Xiaoqin Ge, Wenli Zhang, Le Fan, Yuanzhi Hong, Tao Huang, Sihui Wang<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Applied Surface Science  
+Applied Surface Science, 2024  
 </span>
 <span style="color: #FFA559;">
 Keywords: Ti-Zr-V, NEG Films, Thermal Activation, Adhesion Strength  
@@ -35,7 +35,7 @@ Keywords: Ti-Zr-V, NEG Films, Thermal Activation, Adhesion Strength
 <span style="color: #40E0D0;">[Finite Element Analysis for NEG coated vacuum chamber based on ANSYS Workbench](https://iopscience.iop.org/article/10.1088/1742-6596/2687/8/082025)  </span><br>
 Wenjing Ma, Wenli Zhang, Xiaopeng Xu, **Jianya Wei**, Sihui Wang, Xiaoqin Ge, Baoyuan Bian  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Journal of Physics: Conference Series  
+Journal of Physics: Conference Series, 2024  
 </span>
 <span style="color: #FFA559;">
 Keywords: Vacuum Chamber, Thermal-mechanical Analysis, Synchrotron Radiation Facility  
@@ -44,7 +44,7 @@ Keywords: Vacuum Chamber, Thermal-mechanical Analysis, Synchrotron Radiation Fac
 <span style="color: #40E0D0;">[Vacuum Performance of Activated NEG Coatings under Neon Venting](http://cjvst.cvs.org.cn/en/article/doi/10.13922/j.cnki.cjvst.202305002)  </span><br>
 Xiaopeng Xu, Wenjing Ma, **Jianya Wei**, Xiaoqin Ge, Le Fan, Yuanzhi Hong, Le Fan, Yuanzhi Hong, Xiaowei Xia, Tao Huang, Sihui Wang<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Chinese Journal of Vacuum Science and Technology  
+Chinese Journal of Vacuum Science and Technology, 2023  
 </span>
 <span style="color: #FFA559;">
 Keywords: Ti-Zr-V Coatings, Neon Protecting, HALF, Ultra-high Vacuum, Activation  
@@ -53,7 +53,7 @@ Keywords: Ti-Zr-V Coatings, Neon Protecting, HALF, Ultra-high Vacuum, Activation
 <span style="color: #40E0D0;">[Multi-Chamber TiZrV Coating in OFS Copper Vacuum Chamber for HALF](https://www.cpsjournals.cn/article/doi/10.13922/j.cnki.cjvst.202207022?viewType=HTML)  </span><br>
 Zhuang Zhao, Wenjing Ma, Xiaoqin Ge, Sihui Wang, Yuanzhi Hong, **Jianya Wei**, Shancai Zhang, Le Fan<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Chinese Journal of Vacuum Science and Technology  
+Chinese Journal of Vacuum Science and Technology, 2023  
 </span>
 <span style="color: #FFA559;">
 Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Particle Accelerator  
