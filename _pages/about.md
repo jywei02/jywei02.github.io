@@ -9,22 +9,22 @@ redirect_from:
 Hi there! I am a Master of Science student in Mechanical Engineering at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing. Master thesis title: A Study of the Portable and Fully Automated Artificial Kidney. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
 
 <div class="research-panel">
-  <h2 class="research-panel__title">Current Research</h2>
+  <h2 class="research-panel__title">Current Research Interests</h2>
 
   <div class="research-panel__group">
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">◉</span>
+        <span class="research-item__icon">🎛️</span>
         <span>CONTROLS</span>
       </div>
       <div class="research-item__bar">
-        <span style="width: 90%;"></span>
+        <span style="width: 100%;"></span>
       </div>
     </div>
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">◌</span>
+        <span class="research-item__icon">🖼️</span>
         <span>IMAGE PROCESSING</span>
       </div>
       <div class="research-item__bar">
@@ -34,7 +34,7 @@ Hi there! I am a Master of Science student in Mechanical Engineering at the <a h
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">✺</span>
+        <span class="research-item__icon">💻</span>
         <span>COMPUTATION</span>
       </div>
       <div class="research-item__bar">
@@ -44,7 +44,7 @@ Hi there! I am a Master of Science student in Mechanical Engineering at the <a h
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">&lt;/&gt;</span>
+        <span class="research-item__icon">📐</span>
         <span>MODELING</span>
       </div>
       <div class="research-item__bar">
