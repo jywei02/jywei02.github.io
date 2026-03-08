@@ -108,7 +108,15 @@
   background: linear-gradient(90deg, #49c7c7 0%, #79e3e1 100%);
 }
 
-
+// debug
+.research-panel,
+.research-panel__group,
+.research-item,
+.research-item__bar,
+.footer-counter,
+.footer-note {
+  outline: 1px solid red;
+}
 
 
 
