@@ -54,11 +54,6 @@ Hi there! I am a Master of Science student in Mechanical Engineering at the <a h
   </div>
 </div>
 
-
-
-
-
-
 Publications
 ------
 <span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
