@@ -44,7 +44,7 @@ Hi there! I am a Master of Science student in Mechanical Engineering at the <a h
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">📐</span>
+        <span class="research-item__icon">📊</span>
         <span>MODELING</span>
       </div>
       <div class="research-item__bar">
