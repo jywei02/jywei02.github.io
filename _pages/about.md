@@ -121,20 +121,13 @@ Honors/Awards
 <br>
 <br>
 
-<!-- <head>
+<head>
   <style>
     .footer-counter {
       font-size: 18px;
       text-align: center;
       color: #8ab4ff;
       margin: 24px 0 8px;
-    }
-
-    .footer-note {
-      font-size: 14px;
-      text-align: center;
-      color: #888;
-      margin-top: 4px;
     }
 
     .footer-counter .glow {
@@ -175,7 +168,7 @@ Honors/Awards
     You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to my page.
-  </p> -->
+  </p>
 
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
