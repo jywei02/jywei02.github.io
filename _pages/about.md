@@ -122,10 +122,8 @@ Honors/Awards
 <br>
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     .footer-counter {
-      font-family: 'Orbitron', sans-serif;
       font-size: 18px;
       text-align: center;
       color: #8ab4ff;
