@@ -121,7 +121,7 @@ Honors/Awards
 <br>
 <br>
 
-<head>
+<!-- <head>
   <style>
     .footer-counter {
       font-size: 18px;
@@ -175,7 +175,7 @@ Honors/Awards
     You are visitor
     <span id="busuanzi_value_site_pv" class="glow">0</span>
     to my page.
-  </p>
+  </p> -->
 
   <!-- 不蒜子统计 -->
   <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
