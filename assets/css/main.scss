@@ -212,6 +212,7 @@ html[data-theme="dark"] .masthead {
 }
 
 .author__avatar img {
+  max-width: 150px !important;
   border: none !important;
   box-shadow:
     0 0 0 3px $ap-teal,
@@ -320,9 +321,9 @@ html[data-theme="dark"] .page__title {
   padding: 0.3em 0 0.55em 1.1em !important;
   border-bottom: none !important;
   margin: 2.8rem 0 1.3rem !important;
-  font-size: 0.78rem !important;
+  font-size: 1.0rem !important;
   font-weight: 700 !important;
-  letter-spacing: 0.12em !important;
+  letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
   background: linear-gradient(90deg, $ap-teal, $ap-indigo) !important;
   -webkit-background-clip: text !important;
@@ -350,6 +351,12 @@ html[data-theme="dark"] .page__content h2 {
   &::before {
     background: linear-gradient(to bottom, $ap-teal-dk, $ap-indigo-dk) !important;
   }
+}
+
+/* Override h2 top margin when inside research panel to remove extra whitespace */
+.research-panel .research-panel__title {
+  margin-top: 0 !important;
+  margin-bottom: 1.2rem !important;
 }
 
 /* --- Content Links -------------------------------------------- */
@@ -460,6 +467,11 @@ html[data-theme="dark"] .research-panel__title {
 
 /* --- Footer --------------------------------------------------- */
 .page__footer {
+  background: var(--global-footer-bg-color) !important;
+  border-top: 1px solid var(--global-dark-border-color) !important;
+}
+
+html[data-theme="dark"] .page__footer {
   background: linear-gradient(155deg, #0f172a 0%, #1e293b 60%, #0f172a 100%) !important;
 }
 
@@ -489,4 +501,60 @@ html[data-theme="dark"] .research-panel__title {
 html[data-theme="dark"] .greedy-nav .hidden-links {
   background: #1e293b !important;
   border-color: #334155 !important;
+}
+
+/* ==========================================================================
+   LIGHT THEME ENHANCEMENTS
+   ========================================================================== */
+
+/* Light theme: make body gradient more visible */
+body:not(html[data-theme="dark"] body) {
+  color: #1e293b;
+}
+
+/* Light theme: masthead nav link color */
+html:not([data-theme="dark"]) .greedy-nav a {
+  color: #334155 !important;
+}
+
+html:not([data-theme="dark"]) .greedy-nav a:hover {
+  color: $ap-teal !important;
+}
+
+/* Light theme: sidebar follow links get teal hover */
+html:not([data-theme="dark"]) .author__urls a:hover {
+  background: rgba($ap-teal, 0.09) !important;
+  color: $ap-teal !important;
+}
+
+/* Light theme: research panel — stronger border & subtle fill */
+html:not([data-theme="dark"]) .research-panel {
+  background: linear-gradient(
+    135deg,
+    rgba($ap-teal,   0.07) 0%,
+    rgba($ap-indigo, 0.05) 100%
+  ) !important;
+  border-color: rgba($ap-teal, 0.28) !important;
+  box-shadow: 0 4px 28px rgba($ap-teal, 0.08) !important;
+}
+
+/* Light theme: research bar — stronger accent */
+html:not([data-theme="dark"]) .research-item__bar {
+  border-color: rgba($ap-teal, 0.35) !important;
+  background: rgba($ap-teal, 0.06) !important;
+}
+
+html:not([data-theme="dark"]) .research-item__bar span {
+  background: linear-gradient(90deg, $ap-teal 0%, $ap-cyan 55%, $ap-indigo 100%) !important;
+  box-shadow: 0 0 8px rgba($ap-teal, 0.35) !important;
+}
+
+/* Light theme: footer text color fix */
+html:not([data-theme="dark"]) .page__footer-follow,
+html:not([data-theme="dark"]) .page__footer-copyright {
+  color: #475569 !important;
+
+  a {
+    color: #475569 !important;
+  }
 }
