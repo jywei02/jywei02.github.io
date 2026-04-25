@@ -119,5 +119,370 @@
 // }
 
 
+/* ================================================================
+   GLOBAL OVERRIDES — Beautiful Academic Portfolio Theme
+   ================================================================ */
 
+/* --- Google Font Application ----------------------------------- */
+body,
+p, li, dt, dd,
+input, button, select, textarea {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Helvetica Neue', Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+h1, h2, h3, h4, h5, h6,
+.author__name,
+.page__title,
+.nav__title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif !important;
+  letter-spacing: -0.02em;
+}
+
+/* --- Body Background ------------------------------------------- */
+body {
+  background:
+    radial-gradient(ellipse 70% 50% at 15% -5%,  rgba(13, 148, 136, 0.10) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 85% 105%, rgba(99, 102, 241, 0.10) 0%, transparent 55%),
+    #f8fafc !important;
+  background-attachment: fixed !important;
+}
+
+html[data-theme="dark"] body {
+  background:
+    radial-gradient(ellipse 70% 50% at 15% -5%,  rgba(13, 148, 136, 0.14) 0%, transparent 55%),
+    radial-gradient(ellipse 55% 45% at 85% 105%, rgba(99, 102, 241, 0.14) 0%, transparent 55%),
+    #0f172a !important;
+  background-attachment: fixed !important;
+}
+
+/* --- Masthead — Frosted Glass ---------------------------------- */
+.masthead {
+  background: rgba(248, 250, 252, 0.82) !important;
+  backdrop-filter: blur(20px) saturate(1.8) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.8) !important;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 4px 24px rgba(13, 148, 136, 0.07) !important;
+
+  &::after {
+    background: linear-gradient(90deg, #0d9488 0%, #06b6d4 40%, #6366f1 100%) !important;
+    height: 2px !important;
+  }
+}
+
+html[data-theme="dark"] .masthead {
+  background: rgba(15, 23, 42, 0.88) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45) !important;
+}
+
+.greedy-nav a {
+  font-weight: 500 !important;
+  font-size: 0.91rem !important;
+  letter-spacing: 0.025em !important;
+}
+
+.greedy-nav .visible-links a::before {
+  background: linear-gradient(90deg, #0d9488, #6366f1) !important;
+  height: 3px !important;
+  border-radius: 3px !important;
+}
+
+/* --- Sidebar — Enhanced --------------------------------------- */
+.sidebar {
+  animation: sidebarEntrance 0.6s cubic-bezier(0.4, 0, 0.2, 1) both;
+  animation-delay: 0.05s;
+}
+
+@keyframes sidebarEntrance {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.author__avatar img {
+  border: none !important;
+  box-shadow:
+    0 0 0 3px #0d9488,
+    0 0 0 7px rgba(13, 148, 136, 0.18),
+    0 8px 32px rgba(0, 0, 0, 0.14) !important;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  padding: 0 !important;
+}
+
+.author__avatar img:hover {
+  transform: translateY(-4px) scale(1.04) !important;
+  box-shadow:
+    0 0 0 3px #0891b2,
+    0 0 0 9px rgba(8, 145, 178, 0.24),
+    0 16px 48px rgba(0, 0, 0, 0.2) !important;
+}
+
+.author__name {
+  font-weight: 800 !important;
+  font-size: 1.08rem !important;
+  background: linear-gradient(135deg, #0d9488 20%, #6366f1 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+html[data-theme="dark"] .author__name {
+  background: linear-gradient(135deg, #2dd4bf 20%, #a78bfa 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.author__bio {
+  font-size: 0.82rem !important;
+  line-height: 1.65 !important;
+  color: var(--global-text-color-light) !important;
+}
+
+.author__urls a {
+  border-radius: 7px !important;
+  padding: 3px 8px !important;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease !important;
+
+  &:hover {
+    background: rgba(13, 148, 136, 0.09) !important;
+    color: #0d9488 !important;
+    transform: translateX(4px) !important;
+    text-decoration: none !important;
+  }
+}
+
+.author__urls-wrapper .btn {
+  background: linear-gradient(135deg, #0d9488, #6366f1) !important;
+  border: none !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease !important;
+
+  &:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(13, 148, 136, 0.42) !important;
+  }
+}
+
+/* --- Page Title ----------------------------------------------- */
+.page__title {
+  font-size: 1.85rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+  background: linear-gradient(135deg, #0d9488 0%, #0891b2 45%, #6366f1 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+html[data-theme="dark"] .page__title {
+  background: linear-gradient(135deg, #2dd4bf 0%, #38bdf8 45%, #a78bfa 100%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* --- Page Content — Entrance & General ------------------------ */
+.page__content {
+  animation: contentEntrance 0.65s cubic-bezier(0.4, 0, 0.2, 1) both;
+  animation-delay: 0.15s;
+  line-height: 1.75 !important;
+}
+
+@keyframes contentEntrance {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Section Headers (h2) ------------------------------------- */
+.page__content h2 {
+  position: relative !important;
+  padding: 0.3em 0 0.55em 1.1em !important;
+  border-bottom: none !important;
+  margin: 2.8rem 0 1.3rem !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+  background: linear-gradient(90deg, #0d9488, #6366f1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+
+  &::before {
+    content: '' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0.3em !important;
+    bottom: 0.2em !important;
+    width: 4px !important;
+    background: linear-gradient(to bottom, #0d9488, #6366f1) !important;
+    border-radius: 2px !important;
+  }
+}
+
+html[data-theme="dark"] .page__content h2 {
+  background: linear-gradient(90deg, #2dd4bf, #a78bfa) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+
+  &::before {
+    background: linear-gradient(to bottom, #2dd4bf, #a78bfa) !important;
+  }
+}
+
+/* --- Content Links -------------------------------------------- */
+.page__content a:not(.btn) {
+  color: #0891b2 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(8, 145, 178, 0.3) !important;
+  transition: color 0.2s ease, border-color 0.2s ease !important;
+
+  &:hover {
+    color: #0d9488 !important;
+    border-bottom-color: #0d9488 !important;
+    text-decoration: none !important;
+  }
+}
+
+html[data-theme="dark"] .page__content a:not(.btn) {
+  color: #38bdf8 !important;
+  border-bottom-color: rgba(56, 189, 248, 0.3) !important;
+
+  &:hover {
+    color: #2dd4bf !important;
+    border-bottom-color: #2dd4bf !important;
+  }
+}
+
+/* Highlighted author name in publication lists */
+.page__content strong {
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
+/* --- Research Panel — Enhanced -------------------------------- */
+.research-panel {
+  background: linear-gradient(
+    135deg,
+    rgba(13, 148, 136, 0.05) 0%,
+    rgba(99, 102, 241, 0.05) 100%
+  ) !important;
+  border-radius: 14px !important;
+  padding: 1.6rem 1.9rem 1.3rem !important;
+  border: 1px solid rgba(13, 148, 136, 0.18) !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05) !important;
+}
+
+html[data-theme="dark"] .research-panel {
+  background: rgba(13, 148, 136, 0.07) !important;
+  border-color: rgba(13, 148, 136, 0.22) !important;
+}
+
+.research-panel__title {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  background: linear-gradient(135deg, #0d9488, #6366f1) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+html[data-theme="dark"] .research-panel__title {
+  background: linear-gradient(135deg, #2dd4bf, #a78bfa) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.research-item__label {
+  font-size: 0.84rem !important;
+  letter-spacing: 0.07em !important;
+  font-weight: 700 !important;
+}
+
+.research-item__bar {
+  height: 9px !important;
+  border-color: rgba(13, 148, 136, 0.22) !important;
+  background: rgba(13, 148, 136, 0.07) !important;
+}
+
+.research-item__bar span {
+  background: linear-gradient(
+    90deg,
+    #0d9488 0%,
+    #06b6d4 55%,
+    #6366f1 100%
+  ) !important;
+  box-shadow: 0 0 8px rgba(13, 148, 136, 0.4) !important;
+  transform-origin: left center !important;
+  animation: barExpand 1.4s cubic-bezier(0.65, 0, 0.35, 1) both !important;
+}
+
+@keyframes barExpand {
+  from { transform: scaleX(0); opacity: 0.6; }
+  10%  { opacity: 1; }
+  to   { transform: scaleX(1); }
+}
+
+.research-item {
+  animation: researchItemIn 0.5s ease both;
+}
+.research-item:nth-child(1)                    { animation-delay: 0.2s; }
+.research-item:nth-child(2)                    { animation-delay: 0.32s; }
+.research-item:nth-child(3)                    { animation-delay: 0.44s; }
+.research-item:nth-child(4)                    { animation-delay: 0.56s; }
+.research-item:nth-child(1) .research-item__bar span { animation-delay: 0.55s !important; }
+.research-item:nth-child(2) .research-item__bar span { animation-delay: 0.70s !important; }
+.research-item:nth-child(3) .research-item__bar span { animation-delay: 0.85s !important; }
+.research-item:nth-child(4) .research-item__bar span { animation-delay: 1.00s !important; }
+
+@keyframes researchItemIn {
+  from { opacity: 0; transform: translateX(-14px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* --- Footer --------------------------------------------------- */
+.page__footer {
+  background: linear-gradient(155deg, #0f172a 0%, #1e293b 60%, #0f172a 100%) !important;
+}
+
+.page__footer-follow,
+.page__footer-copyright {
+  color: #64748b !important;
+
+  a {
+    color: #64748b !important;
+    transition: color 0.2s ease !important;
+
+    &:hover {
+      color: #0d9488 !important;
+      text-decoration: none !important;
+    }
+  }
+}
+
+/* --- Greedy Nav Hidden Link Dropdown -------------------------- */
+.greedy-nav .hidden-links {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14) !important;
+  border-color: rgba(226, 232, 240, 0.9) !important;
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #1e293b !important;
+  border-color: #334155 !important;
+}
