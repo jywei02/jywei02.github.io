@@ -125,7 +125,7 @@ Honors/Awards
 
 <div class="visitor-badge">
   <div class="visitor-badge__inner">
-    <span class="visitor-badge__icon" aria-hidden="true">👁</span>
+    <span class="visitor-badge__icon" aria-hidden="true"></span>
     <div class="visitor-badge__body">
       <p class="visitor-badge__thanks">Thanks for reading this far!</p>
       <p class="visitor-badge__label">You are visitor&nbsp;<span id="busuanzi_value_site_pv" class="visitor-badge__count" aria-label="visitor count">…</span>&nbsp;to my page.</p>
