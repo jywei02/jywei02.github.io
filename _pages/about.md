@@ -123,56 +123,16 @@ Honors/Awards
 <br>
 <br>
 
-<head>
-  <style>
-    .footer-counter {
-      font-size: 18px;
-      text-align: center;
-      color: #8ab4ff;
-      margin: 24px 0 8px;
-    }
+<div class="visitor-badge">
+  <div class="visitor-badge__inner">
+    <span class="visitor-badge__icon" aria-hidden="true">👁</span>
+    <div class="visitor-badge__body">
+      <p class="visitor-badge__thanks">Thanks for reading this far!</p>
+      <p class="visitor-badge__label">You are visitor&nbsp;<span id="busuanzi_value_site_pv" class="visitor-badge__count" aria-label="visitor count">…</span>&nbsp;to my page.</p>
+    </div>
+  </div>
+</div>
 
-    .footer-counter .glow {
-      animation: neon-cycle 6s ease-in-out infinite;
-    }
-
-    @keyframes neon-cycle {
-      0% {
-        color: #8ab4ff;
-        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
-                     0 0 24px rgba(0, 200, 255, 0.8),
-                     0 0 36px rgba(0, 200, 255, 0.6);
-      }
-      33% {
-        color: #b388ff;
-        text-shadow: 0 0 12px rgba(179, 136, 255, 0.9),
-                     0 0 24px rgba(162, 0, 255, 0.8),
-                     0 0 36px rgba(162, 0, 255, 0.6);
-      }
-      66% {
-        color: #00f5d4;
-        text-shadow: 0 0 12px rgba(0, 245, 212, 0.9),
-                     0 0 24px rgba(0, 180, 255, 0.8),
-                     0 0 36px rgba(0, 180, 255, 0.6);
-      }
-      100% {
-        color: #8ab4ff;
-        text-shadow: 0 0 12px rgba(138, 180, 255, 0.9),
-                     0 0 24px rgba(0, 200, 255, 0.8),
-                     0 0 36px rgba(0, 200, 255, 0.6);
-      }
-    }
-  </style>
-</head>
-<body>
-  <p class="footer-counter">
-    Thanks for reading this far!<br> 
-    You are visitor
-    <span id="busuanzi_value_site_pv" class="glow">0</span>
-    to my page.
-  </p>
-
-  <!-- 不蒜子统计 -->
-  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-</body>
+<!-- 不蒜子统计 -->
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
