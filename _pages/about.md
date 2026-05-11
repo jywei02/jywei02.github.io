@@ -58,16 +58,13 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
 Publications
 ------
-<span style="color: #40E0D0;">
-Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy
-</span><br>
+Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy<br>
 Shaohang Hao<sup>+</sup>, <strong>Jianya Wei</strong><sup>+</sup>, Tianpu Li<sup>+</sup>, Nanye Du, Xiao Ma, Zeyuan Chen, Dayong Gao<sup>*</sup>  
-<br>
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
-Scientific Reports, 2026, under review
-</span><br>
+Scientific Reports, 2026, under review  
+</span>
 <span style="color: #FFA559;">
-Keywords: Hemofiltration, Peristaltic Pump, Proportional--integral Control, Long Short-term Memory, Total Variation Regularization, Adaptive Control
+Keywords: Hemofiltration, peristaltic pump, proportional-integral control, long short-term memory, total variation regularization, adaptive control  
 </span>
 
 
