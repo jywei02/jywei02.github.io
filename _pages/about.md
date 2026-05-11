@@ -58,6 +58,11 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
 Publications
 ------
+<span style="font-size: 0.95em;">
+<sup>+</sup> Equal contribution; <sup>*</sup> Corresponding author.
+</span>
+<br><br>
+
 Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy<br>
 Shaohang Hao<sup>+</sup>, <strong>Jianya Wei</strong><sup>+</sup>, Tianpu Li<sup>+</sup>, Nanye Du, Xiao Ma, Zeyuan Chen, Dayong Gao<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
