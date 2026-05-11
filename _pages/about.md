@@ -58,6 +58,19 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
 Publications
 ------
+<span style="color: #40E0D0;">
+Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy
+</span><br>
+Shaohang Hao<sup>+</sup>, <strong>Jianya Wei</strong><sup>+</sup>, Tianpu Li<sup>+</sup>, Nanye Du, Xiao Ma, Zeyuan Chen, Dayong Gao<sup>*</sup>  
+<br>
+<span style="font-family: 'Times New Roman', serif; font-style: italic;">
+Scientific Reports, 2026, under review
+</span><br>
+<span style="color: #FFA559;">
+Keywords: Hemofiltration, Peristaltic Pump, Proportional--integral Control, Long Short-term Memory, Total Variation Regularization, Adaptive Control
+</span>
+
+
 <span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
