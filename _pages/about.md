@@ -61,9 +61,8 @@ Publications
 <span style="font-size: 0.95em;">
 <sup>+</sup> Equal contribution; <sup>*</sup> Corresponding author.
 </span>
-<br><br>
+<br>
 
-<!--
 Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy<br>
 Shaohang Hao<sup>+</sup>, <strong>Jianya Wei</strong><sup>+</sup>, Tianpu Li<sup>+</sup>, Nanye Du, Xiao Ma, Zeyuan Chen, Dayong Gao<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
@@ -72,8 +71,6 @@ Scientific Reports, 2026, under review
 <span style="color: #FFA559;">
 Keywords: Hemofiltration, peristaltic pump, proportional-integral control, long short-term memory, total variation regularization, adaptive control  
 </span>
--->
-
 
 <span style="color: #40E0D0;">[A tristimulus value transformation calibration method for spectral emission separation in dual-dye pressure-sensitive paints](https://www.sciencedirect.com/science/article/abs/pii/S0924424725011720?via%3Dihub)  </span><br>
 **Jianya Wei**, Zehua Wang, Jingyi Bai, Dana Dabiri<sup>*</sup>  
