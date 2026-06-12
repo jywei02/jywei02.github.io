@@ -214,21 +214,14 @@ html[data-theme="dark"] .masthead {
 .author__avatar img {
   max-width: 150px !important;
   border: none !important;
-  box-shadow:
-    0 0 0 3px $ap-teal,
-    0 0 0 7px rgba($ap-teal, 0.18),
-    0 8px 32px rgba(0, 0, 0, 0.14) !important;
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-              box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: none !important;
+  transition: none !important;
   padding: 0 !important;
 }
 
 .author__avatar img:hover {
-  transform: translateY(-4px) scale(1.04) !important;
-  box-shadow:
-    0 0 0 3px $ap-blue,
-    0 0 0 9px rgba($ap-blue, 0.24),
-    0 16px 48px rgba(0, 0, 0, 0.2) !important;
+  transform: none !important;
+  box-shadow: none !important;
 }
 
 .author__name {
