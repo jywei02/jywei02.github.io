@@ -63,6 +63,12 @@ Publications
 </span>
 <br>
 
+<span style="color: #40E0D0;">[A Study of the Portable and Fully Automated Artificial Kidney](https://www.proquest.com/docview/3365368336)  </span><br>
+**Jianya Wei**  
+<span style="font-family: 'Times New Roman', serif; font-style: italic;">
+University of Washington Dissertations & Theses, 2026  
+</span>
+
 Optimal PI-Gain Prediction Using a Total-Variation-Regularized Multi-Head LSTM for Hemofiltration Control in Renal Replacement Therapy<br>
 Shaohang Hao<sup>+</sup>, <strong>Jianya Wei</strong><sup>+</sup>, Tianpu Li<sup>+</sup>, Nanye Du, Xiao Ma, Zeyuan Chen, Dayong Gao<sup>*</sup>  
 <span style="font-family: 'Times New Roman', serif; font-style: italic;">
