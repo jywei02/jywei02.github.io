@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi there! I am a Master of Science student in Mechanical Engineering at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. My work centers on advanced fluid control for artificial kidney systems and high-throughput image processing. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
+Hi there! I am a Doctor of Philosophy student in Mechanical Engineering at  <a href="https://www.mcgill.ca/" target="_blank">McGill University</a>. Under the supervision of Professor <a href="https://www.mcgill.ca/mecheng/changhong-cao" target="_blank">Changhong Cao</a> and Professor <a href="https://www.mcgill.ca/mecheng/yaoyao-zhao" target="_blank">Yaoyao Fiona Zhao</a>. My work centers on self-driving lab of small-scale AM process with targeted application on semiconductor heatsink. Prior to this, I earned my Master of Science degree at the <a href="https://www.washington.edu/" target="_blank">University of Washington, Seattle</a>. During my master's study, I feel very fortunate to have worked under the guidance of Professor <a href="https://www.me.washington.edu/facultyfinder/dayong-gao" target="_blank">Dayong Gao</a>.
 
 In my spare time, I enjoy traveling, hiking, playing badminton, and collecting fridge magnets.
 
@@ -16,8 +16,8 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
   <div class="research-panel__group">
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">🎛️</span>
-        <span>CONTROLS</span>
+        <span class="research-item__icon"></span>
+        <span>Additive Manufacturing</span>
       </div>
       <div class="research-item__bar">
         <span style="width: 100%;"></span>
@@ -26,8 +26,8 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">🖼️</span>
-        <span>IMAGE PROCESSING</span>
+        <span class="research-item__icon"></span>
+        <span>Machine Learning</span>
       </div>
       <div class="research-item__bar">
         <span style="width: 82%;"></span>
@@ -36,8 +36,8 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">💻</span>
-        <span>COMPUTATION</span>
+        <span class="research-item__icon"></span>
+        <span>Materials Science</span>
       </div>
       <div class="research-item__bar">
         <span style="width: 70%;"></span>
@@ -46,8 +46,8 @@ In my spare time, I enjoy traveling, hiking, playing badminton, and collecting f
 
     <div class="research-item">
       <div class="research-item__label">
-        <span class="research-item__icon">📊</span>
-        <span>MODELING</span>
+        <span class="research-item__icon"></span>
+        <span>Simulation</span>
       </div>
       <div class="research-item__bar">
         <span style="width: 63%;"></span>
@@ -129,6 +129,9 @@ Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Pa
 
 Teaching
 ------
+**TA Experiences at McGill:** 
+• 2026 Autumn, MECH 360 Principles of Manufacturing  
+
 **TA Experiences at UW:**  
 • 2026 Winter, ME 535 Computational Techniques in Mechanical Engineering  
 • 2025 Autumn, ME 531 Conductive Heat Transfer  
