@@ -129,7 +129,7 @@ Keywords: Multi-chamber Coating, Non-evaporable Getter, Magnetron Sputtering, Pa
 
 Teaching
 ------
-**TA Experiences at McGill:** 
+**TA Experiences at McGill:**  
 • 2026 Autumn, MECH 360 Principles of Manufacturing  
 
 **TA Experiences at UW:**  
