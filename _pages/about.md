@@ -140,6 +140,7 @@ Teaching
 
 Honors/Awards
 ------
+• Canada Impact+ Research Training Award  
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
