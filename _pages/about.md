@@ -140,7 +140,7 @@ Teaching
 
 Honors/Awards
 ------
-• Canada Impact+ Research Training Award  
+• <a href="https://nserc-crsng.canada.ca/en/news/launch-new-canada-impact-research-training-awards" target="_blank">Canada Impact+ Research Training Award</a>  
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
