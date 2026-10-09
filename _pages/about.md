@@ -141,6 +141,8 @@ Teaching
 Honors/Awards
 ------
 • <a href="https://www.canada.ca/en/innovation-science-economic-development/news/2025/12/government-of-canada-launches-new-initiative-to-recruit-world-leading-researchers.html" target="_blank">Canada Impact+ Research Training Award</a>  
+• Max Stern Recruitment Fellowship
+• Graduate Excellence Award
 • Outstanding Undergraduate Scholarship for four consecutive years  
 • The First Prize in China Undergraduate Mathematical Contest in Modeling (Rank: 9/272)
 
